@@ -41,8 +41,7 @@ RUN pecl install \
     imagick \
     xdebug \
     swoole-4.5.7 \
-    mongodb \
-    amqp
+    mongodb
 
 # Enable PECL and PEAR extensions
 RUN docker-php-ext-enable \
@@ -50,8 +49,7 @@ RUN docker-php-ext-enable \
     imagick \
     xdebug \
     swoole \
-    mongodb \
-    amqp
+    mongodb
     
 
 # Configure php extensions
