@@ -90,3 +90,7 @@ RUN apk del -f .build-deps
 
 # Setup working directory
 WORKDIR /var/www
+
+CMD ["php-fpm"]
+
+EXPOSE 90001
